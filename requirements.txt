@@ -1,5 +1,6 @@
-pytest
+pytest~=6.2.5
 pytest-selenium
-termcolor
+termcolor~=2.0.1
 allure-python-commons
 webdriver-manager
+selenium~=4.5.0

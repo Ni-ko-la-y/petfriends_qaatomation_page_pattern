@@ -3,7 +3,7 @@
 
 # This is example shows how we can manage failed tests
 # and make screenshots after any failed test case.
-
+import allure
 import pytest
 import uuid
 

@@ -301,4 +301,6 @@ class ManyWebElements(WebElement):
         # Make screen-shot of the page:
         self._web_driver.save_screenshot(file_name)
 
-
+    def cntrlv(self):
+        action = ActionChains(self._web_driver)
+        action.key_down(Keys.CONTROL).send_keys('v').key_up(Keys.CONTROL).perform()
